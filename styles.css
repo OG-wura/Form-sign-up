@@ -1,0 +1,49 @@
+body{
+  background-color: wheat;
+  
+}
+
+.main{
+  width: 325px;
+  padding: 40px 30px;
+  box-sizing: border-box ;
+  top: 50%; 
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  background: #000;
+  display: flex;
+}
+
+input {
+	flex-direction: column;
+  outline: none;
+  width: 100%;
+  margin:  8px 0px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  padding: 5px 17px;
+  color: #fff;
+}
+
+label{
+  color: #fff;
+}
+
+.submit{
+  margin-top: 18px;
+  Margin-left: 85px;
+  Padding: 10px;
+  border-radius: 10px;
+  font-weight: 30px;
+  cursor: pointer;
+}
+.submit:hover{
+  background-color: #cac3c3;
+}
+
+p{
+  color: white;
+}
